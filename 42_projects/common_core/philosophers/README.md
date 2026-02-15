@@ -11,4 +11,4 @@ Implementation of the dining philosophers problem in C, focusing on concurrency 
 
 ## Source code  
 Project developed within the 42 curriculum.  
-The source code is private, but can be shared upon request with recruiters.
+The source code is kept private in accordance with 42 guidelines.
