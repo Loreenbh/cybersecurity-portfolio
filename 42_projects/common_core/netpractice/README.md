@@ -11,4 +11,4 @@ Networking project focused on understanding TCP/IP addressing and routing throug
 
 ## Source code  
 Project developed within the 42 curriculum.  
-Exercises and solutions are private, but can be shared upon request with recruiters.
+Exercises and solutions are kept private in accordance with 42 guidelines.
