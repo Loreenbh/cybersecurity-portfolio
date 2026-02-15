@@ -10,4 +10,4 @@ Reimplementation of a Unix shell in C as part of the 42 curriculum.
 
 ## Source code
 Project developed within the 42 curriculum.  
-The source code is private, but can be shared upon request with recruiters.
+The source code is kept private in accordance with 42 guidelines.
