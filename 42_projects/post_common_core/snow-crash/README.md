@@ -16,6 +16,7 @@ The goal of each level is to retrieve the flag by analyzing files, processes, an
 
 ## Levels Covered
 - Level00 – Basic file enumeration and Caesar cipher decoding
+- Level01 - Extracting a password hash from `/etc/passwd` and cracking it with John the Ripper
 
 ## Resources / Proofs
 - Screenshots and outputs for each level are stored in the `images/` folder.
