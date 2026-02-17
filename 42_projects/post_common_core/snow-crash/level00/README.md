@@ -12,7 +12,7 @@ Search for files owned by `flag00`:
 find / -user "flag00" 2>/dev/null
 ```
 
-### Output
+## Output
 ```
 /usr/sbin/john
 /rofs/usr/sbin/john
@@ -22,5 +22,5 @@ The file `/usr/sbin/john` contained a password encoded with a Caesar cipher.
 Tool used for decoding:
 [dCode – Caesar Cipher](https://www.dcode.fr/chiffre-cesar)
 
-### Flag
+## Flag
 ![Description](images/level00_flag.png)
