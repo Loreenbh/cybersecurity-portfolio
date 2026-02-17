@@ -1,4 +1,4 @@
-# Level00 – SnowCrash Write-up
+# Level00 – SnowCrash
 
 ## Objective
 Obtain the flag for level00 by analyzing files belonging to the user `flag00`.
