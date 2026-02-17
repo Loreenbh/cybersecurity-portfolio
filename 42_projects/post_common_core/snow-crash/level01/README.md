@@ -2,7 +2,6 @@
 
 ## Objective
 Recover the password for `flag01` by analyzing system files and cracking a DES hash.
----
 
 ## Reconnaissance
 
