@@ -3,17 +3,10 @@
 ## Objective
 Obtain the flag for level00 by analyzing files belonging to the user `flag00`.
 
----
-
 ## Reconnaissance
-Search for files owned by `flag00`:
-
+Identified files owned by `flag00` and located a file containing an encoded string.
 ```bash
 find / -user "flag00" 2>/dev/null
-```
-
-### Output
-```
 /usr/sbin/john
 /rofs/usr/sbin/john
 ```
