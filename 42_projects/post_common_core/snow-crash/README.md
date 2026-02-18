@@ -20,6 +20,7 @@ The goal of each level is to retrieve the flag by analyzing files, processes, an
 - Level02 - Telnet credential recovery via packet capture analysis
 - Level03 - Privilege escalation via SUID binary and PATH hijacking
 - Level04 – Command injection via SUID Perl web script
+- Level05 - Exploiting scheduled script with arbitrary code execution
 
 ## Resources / Proofs
 - Screenshots and outputs for each level are stored in the `images/` folder.
