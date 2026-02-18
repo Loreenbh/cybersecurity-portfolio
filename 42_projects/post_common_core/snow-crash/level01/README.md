@@ -16,7 +16,7 @@ The `/etc/passwd` file contained a 13-character DES hash for `flag01`. Unlike mo
 
 ## Exploitation
 The string `42hDRfypTqqnw` is a 13-character hash, whick indicates a legacy Unix DES-based hash.
-Since the format matches DES, we can se John The Ripper to crack it.
+Since the format matches DES, we can use John The Ripper to crack it.
 
 ![John the Ripper cracking the DES hash](images/crack-passwd.png)
 
