@@ -28,7 +28,8 @@ The goal of each level is to retrieve the flag by analyzing files, processes, an
 - Level10 - TOCTOU race condition exploitation in SUID binary
 - Level11 - Command injection in a local SUID Lua service
 - Level12 - Command injection in SUID Perl CGI service
-- Level13 - Level13 - UID check bypass in SUID binary
+- Level13 - UID check bypass in SUID binary
+- Level14 - Anti-debugging and UID check bypass in SUID getflag binary
 
 ## Resources / Proofs
 - Screenshots and outputs for each level are stored in the `images/` folder.
