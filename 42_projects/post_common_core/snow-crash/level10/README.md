@@ -65,5 +65,6 @@ nc -lk 6969
 ```
 
 ## Flag
-![Level10 Flag Screenshot](images/level10_flag.png)
+![Level10 Flag Screenshot0](images/level10_0_flag.png)
+![Level10 Flag Screenshot1](images/level10_1_flag.png)
 
