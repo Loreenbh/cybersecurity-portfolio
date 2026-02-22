@@ -22,9 +22,7 @@ scp -P 4243 level02@10.14.14.4:/home/user/level02/level02.pcap ~/Downloads/
 - Filtered and followed the TCP stream of the Telnet session.
 - Extracted credentials transmitted in cleartext.
 - The password contained control characters (`0x7f`, DEL – backspace), which were removed to reconstruct the correct password.
-
 ![Level02 Wireshark screenshot](images/wireshark_passwd.png)
 
 ## Flag
-
 ![Level02 Flag Screenshot](images/level02_flag.png)
