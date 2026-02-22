@@ -12,17 +12,16 @@ ls -la
 The file `level02.pcap` contains captured network traffic for analysis.
 
 ## Exploitation
-1. Transfer the capture file
-  Transferred the `.pcap` file to the local machine for analysis:
+### Transfer the capture file
+Transferred the `.pcap` file to the local machine for analysis:
 ```bash
 scp -P 4243 level02@10.14.14.4:/home/user/level02/level02.pcap ~/Downloads/
 ```
-2. Traffic Analysis
-  - Opened the capture in Wireshark
-  - Filtered and followed the TCP stream of the Telnet session
-  - Identified credentials transmitted in cleartext
-  During analysis, the extracted password contained control characters         (`0x7f`, DEL – backspace).
-  These characters were removed to reconstruct the correct password.
+### Traffic Analysis
+- Opened the capture in Wireshark.
+- Filtered and followed the TCP stream of the Telnet session.
+- Extracted credentials transmitted in cleartext.
+- The password contained control characters (`0x7f`, DEL – backspace), which were removed to reconstruct the correct password.
 
 ![Level02 Wireshark screenshot](images/wireshark_passwd.png)
 
