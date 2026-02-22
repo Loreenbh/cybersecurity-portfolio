@@ -10,10 +10,11 @@ Looking for an internship or work-study position in cybersecurity (pentest / SOC
 - CTF practice (TryHackMe)
 - Scripting (Bash, Python)
 
-### Current Projects
+### Cybersecurity Projects
+- **Rainfall (42)** – In Progress – Binary exploitation, reverse engineering, buffer overflows
 - **Snowcrash (42)** – Linux exploitation, privilege escalation, scripting
 - **TryHackMe challenges** – writeups, enumeration, exploitation ([THM link](#))
-- Cybersecurity notes & small tools
+- Personal Cybersecurity notes & small automation tools
 
 ### 42 System Projects
 - **Minishell** – process management, fork/exec (relevant for understanding vulnerabilities)
