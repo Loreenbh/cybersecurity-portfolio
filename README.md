@@ -13,7 +13,7 @@ Looking for an internship or work-study position in cybersecurity (pentest / SOC
 ### Cybersecurity Projects
 - **Rainfall (42)** – In Progress – Binary exploitation, reverse engineering, buffer overflows
 - **Snowcrash (42)** – Linux exploitation, privilege escalation, scripting
-- **HackTheBox challenges** – writeups, enumeration, exploitation ([HTM link](#))
+- **HackTheBox challenges** – writeups, enumeration, exploitation ([HTM link](https://app.hackthebox.com/users/2994472?profile-top-tab=machines&ownership-period=1M&profile-bottom-tab=prolabs))
 - Personal Cybersecurity notes & small automation tools
 
 ### 42 System Projects
